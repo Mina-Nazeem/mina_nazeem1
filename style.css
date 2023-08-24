@@ -10,6 +10,10 @@ body{
     background-size:cover;
 }
 
+.background{
+    background-image: url("images/2.JPG");
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -28,6 +32,9 @@ body{
     width: 130px;
     border-radius: 100px;
     margin-top: 90px;
+}
+.profile_image{
+    box-shadow: 4px 4px 4px #adacac;
 }
 .container .header .logo1 img{
     width: 277px;
@@ -62,8 +69,10 @@ body{
 }
 
 .body .phone button{
-    width: 41.5%;
+    display: inline-block;
+    width: 42%;
     margin: 10 0;
+    margin-left: 4px;
 }
 
 .container .logo{
@@ -89,4 +98,4 @@ body{
 
 .footer .container p{
     font-size: 12px;
-} 
+}
