@@ -68,12 +68,16 @@ body{
     margin: 0 5px;
 }
 
+/*
 .body .phone button{
+    
     display: inline-block;
     width: 42%;
     margin: 10 0;
     margin-left: 4px;
+    
 }
+*/
 
 .container .logo{
     text-align: center;
