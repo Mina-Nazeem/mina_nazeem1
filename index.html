@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="images/3.jpg">
+            <img src="images/3.jpg" class="profile_image">
             <h2><P>Mina Nazeem</P></h2>
             <!--<P>You Are Welcome</P>-->
             <div class="logo1"><img class="logo1" src="images/logo_1.png"></div>
@@ -44,15 +44,10 @@
             <a href="Locations.html">
                 <button><i class="fa-solid fa-location-dot"></i>Center Locations</button>
             </a>
-
-            <div class="phone">
-                <button id="call-button1" class="call-button"><i class="fa-solid fa-phone"></i><b>01159847460</b></button>
-                <button id="call-button2" class="call-button"><i class="fa-solid fa-phone"></i><b>01554288171</b></button>
-            </div>
+            <a href="Call_center.html">
+                <button><i class="fa-solid fa-phone"></i>Call center</button>
+            </a>
         </div>
-
-
-            
 
 <!--
         <div class="logo">
@@ -67,21 +62,5 @@
             <p>&copy;2023 All rights reserved.Mina Nazeem.</p>
         </div>
     </div>
-
-    <script>
-        const callButton1 = document.getElementById('call-button1');
-        const callButton2 = document.getElementById('call-button2');
-        const phoneNumber1 = '+2011-598-47460';
-        const phoneNumber2 = '+2015-542-88171';
-    
-        callButton1.addEventListener('click', () => {
-        window.location.href = `tel:${phoneNumber1}`;
-        });
-
-        callButton2.addEventListener('click', () => {
-        window.location.href = `tel:${phoneNumber2}`;
-        });
-
-</script>
 </body>
-</html> 
+</html>
