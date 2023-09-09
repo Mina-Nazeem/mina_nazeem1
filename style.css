@@ -28,14 +28,20 @@ body{
 }
 
 .container .header img{
+    /*
     height: 130px;
     width: 130px;
+    */
+    height: 165px;
+    width: 150px;
     border-radius: 100px;
     margin-top: 90px;
 }
+/*
 .profile_image{
     box-shadow: 4px 4px 4px #adacac;
 }
+*/
 .container .header .logo1 img{
     width: 277px;
     height: 150px;
