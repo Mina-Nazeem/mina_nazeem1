@@ -42,6 +42,12 @@ body{
     box-shadow: 4px 4px 4px #adacac;
 }
 */
+
+.container .header h2 p {
+    color: rgb(29, 45, 45);
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
 .container .header .logo1 img{
     width: 277px;
     height: 150px;
